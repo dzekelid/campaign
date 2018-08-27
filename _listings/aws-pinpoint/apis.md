@@ -21,8 +21,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Campaign
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/apis.md
 specificationVersion: "0.14"
 apis:
@@ -43,6 +43,86 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaigns-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaigns-get-openapi.md
+- name: AWS Pinpoint API - Add Campaign
+  x-api-slug: appsapplicationidcampaigns-put
+  description: Use the POST method to create or update a campaign.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaigns-put-openapi.md
+- name: AWS Pinpoint API - Campaign Instance
+  x-api-slug: appsapplicationidcampaignscampaignid-get
+  description: Use the GET method to request information about a campaign.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignid-get-openapi.md
+- name: AWS Pinpoint API - Update Campaign Instance
+  x-api-slug: appsapplicationidcampaignscampaignid-put
+  description: Use the PUT method to update a campaign.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignid-put-openapi.md
+- name: AWS Pinpoint API - Delete Campaign Instance
+  x-api-slug: appsapplicationidcampaignscampaignid-delete
+  description: Use the DELETE method to delete a campaign.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignid-delete-openapi.md
+- name: AWS Pinpoint API - Campaign Activities
+  x-api-slug: appsapplicationidcampaignscampaignidactivities-get
+  description: Returns information about the activity performed by a campaign, such
+    as the time during which the campaign ran and the number of endpoints to which
+    it delivered messages. You can use this resource to look up activity information
+    by app ID and campaign ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignidactivities-get-openapi.md
+- name: AWS Pinpoint API - Campaign Versions List
+  x-api-slug: appsapplicationidcampaignscampaignidversions-get
+  description: Use the GET method to request information about your campaign versions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignidversions-get-openapi.md
+- name: AWS Pinpoint API - Campaign Version Instance
+  x-api-slug: appsapplicationidcampaignscampaignidversionsversion-get
+  description: Use the GET method to request information about a campaign version.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg
+  humanURL: https://aws.amazon.com/pinpoint/
+  baseURL: :///
+  tags: Amazon Web Services, Mobile, Stack Network, API Service Provider, API Service
+    Provider, API Provider, Profiles, Relative Data, Service API, Marketing, Marketing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/appsapplicationidcampaignscampaignidversionsversion-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.opsworks.api.gallery.streamdata.io

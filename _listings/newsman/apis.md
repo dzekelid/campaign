@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1895-newsm
 x-kinRank: "7"
 x-alexaRank: "3514947"
 tags: Campaign
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/newsman/apis.md
 specificationVersion: "0.14"
 apis: []

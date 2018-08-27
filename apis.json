@@ -1,0 +1,223 @@
+{
+	"name": "Streadata.io API Gallery - Campaign",
+	"description": "This is a repository of campaign APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/campaign.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://campaign.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Constant Contact",
+			"x-api-slug": "constant-contact",
+			"description": "With Constant Contact, you can create effective email marketing and other online marketing campaigns to meet your business goals. Start your FREE trial today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/171-constant-contact.jpg",
+			"humanURL": "http://blogs.constantcontact.com",
+			"baseURL": "https://api.constantcontact.com//v2",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/constant-contact/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mailjet",
+			"x-api-slug": "mailjet",
+			"description": "Streamline your emailing and boost your sales with Mailjet. We serve all your email and SMS needs with one simple and powerful solution. You can try it now with 6000 emails/mo absolutely free. Sign up now, or read more about how we can help your busine...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/843-mailjet.jpg",
+			"humanURL": "http://mailjet.com",
+			"baseURL": "https://api.mailjet.com/v3/REST/",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/mailjet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Colorado HBGuest",
+			"x-api-slug": "colorado-hbguest",
+			"description": "",
+			"image": "",
+			"humanURL": "http://water.state.co.us/DataMaps/WebServices/Pages/WebServices.aspx",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/colorado-hbguest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yesmail Interactive",
+			"x-api-slug": "yesmail-interactive",
+			"description": "Yesmail is a leading provider of email and digital marketing services. Truly connect with your customers through our revolutionary cross-channel solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1224-yesmail-interactive.jpg",
+			"humanURL": "http://www.yesmail.com/Services/Enterprise-Web-Services/Available-APIs.aspx",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/yesmail-interactive/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ongage",
+			"x-api-slug": "ongage",
+			"description": "The most advanced front end solution for email marketing. Increase deliverability, boost your SMTP, and much more. Visit us to learn more and a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1231-ongage.jpg",
+			"humanURL": "http://www.ongage.com/resources/api/",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/ongage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Newsman",
+			"x-api-slug": "newsman",
+			"description": "Email marketing through Newsman takes care of your emailing needs and helps to create, send, track and seamlessly analyze email campaigns. Try it now!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1895-newsman.jpg",
+			"humanURL": "http://kb.newsmanapp.com/api/",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/newsman/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Pinpoint",
+			"x-api-slug": "aws-pinpoint",
+			"description": "Amazon Pinpoint makes it easy to run targeted campaigns to drive user engagement in mobile apps. Amazon Pinpoint helps you understand user behavior, define which users to target, determine which messages to send, schedule the best time to deliver the messages, and then track the results of your campaign.Targeted push notifications based on app usage trends and user behavior have become a popular approach for mobile app user engagement because response rates are often several times higher than tradition email marketing campaigns. By using targeted push notifications, you can increase message relevance and effectiveness, measure engagement, and continually improve your campaigns.Getting started with Amazon Pinpoint is easy. First, AWS Mobile Hub guides you through the process to integrate the AWS Mobile SDK with your app. Next, you define your target segments, campaign message, and specify the delivery schedule. Once your campaign is running, Pinpoint provides metrics so you can run analytics and track the impact of your campaign.With Amazon Pinpoint, there are no upfront setup costs, and no fixed monthly cost. You only pay for the number of users your campaign targets, the messages you send, and the events you collect, so you can start small and scale as your application grows.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-pinpoint.jpg",
+			"humanURL": "https://aws.amazon.com/pinpoint/",
+			"baseURL": ":///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Campaign",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Campaign",
+	"include": [
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Constant Contact",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/constant-contact/apis.yaml"
+		},
+		{
+			"name": "Mailjet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/mailjet/apis.yaml"
+		},
+		{
+			"name": "Colorado HBGuest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/colorado-hbguest/apis.yaml"
+		},
+		{
+			"name": "Yesmail Interactive",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/yesmail-interactive/apis.yaml"
+		},
+		{
+			"name": "Ongage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/ongage/apis.yaml"
+		},
+		{
+			"name": "Newsman",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/newsman/apis.yaml"
+		},
+		{
+			"name": "AWS Pinpoint",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/aws-pinpoint/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

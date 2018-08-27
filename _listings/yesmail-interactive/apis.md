@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1224-yesma
 x-kinRank: "7"
 x-alexaRank: "738053"
 tags: Campaign
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/campaign/master/_listings/yesmail-interactive/apis.md
 specificationVersion: "0.14"
 apis: []
